@@ -109,6 +109,7 @@ kind: Service
 metadata:
   name: condb-service
   namespace: pedemo-dyzk-user6
+spec:
   selector:
     app: condb
   ports:
